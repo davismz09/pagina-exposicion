@@ -1,0 +1,79 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+main {
+    width: 70%;
+    margin: 30px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section.exposicion {
+    margin-bottom: 2rem;
+}
+
+section.exposicion h1,
+section.terminos_desglosados h2 {
+    color: #333;
+}
+
+section.exposicion h2,
+section.terminos_desglosados h2 {
+    margin-top: 1.5rem;
+    color: #0056b3;
+}
+
+section.exposicion p,
+section.terminos_desglosados p {
+    text-align: justify;
+    line-height: 1.6;
+    color: #666;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+hr {
+    margin-top: 2rem;
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+.terminos_desglosados {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-left: 4px solid #007bff;
+}
+
+.terminos_desglosados div {
+    margin-bottom: 20px;
+}
+
+.terminos_desglosados h2 {
+    color: #0056b3;
+}
+
+.terminos_desglosados a {
+    display: inline-block;
+    margin-bottom: 1rem;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
