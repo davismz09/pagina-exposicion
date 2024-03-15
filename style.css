@@ -61,8 +61,17 @@ hr {
     margin-bottom: 20px;
 }
 
-.terminos_desglosados h2 {
+.terminos_desglosados h2,
+.terminos_desglosados h3 {
     color: #0056b3;
+}
+
+.terminos_desglosados li p {
+    margin-top: 0;
+}
+
+.terminos_desglosados h3 {
+    margin: 20px 0 5px 0;
 }
 
 .terminos_desglosados a {
